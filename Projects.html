@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Niranjan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./tailwind.config.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap" rel="stylesheet">
+
+    
+</head>
+
+<body class="overflow-x-hidden font-Outfit leading-8 dark:bg-darkTheme dark:text-white">
+
+    <div class="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]
+    dark:hidden">
+        <img src="./images/header-bg-color.png" alt="" class="w-full">
+    </div>
+
+
+    <nav class="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
+
+        <a href="./index.html">
+            <img src="./images/logo.svg" alt="Logo" class="w-28 cursor-pointer mr-14 dark:hidden">
+
+        <img src="./images/logo-dark.png" alt="Logo" class="w-28 cursor-pointer mr-14 hidden dark:block">
+        </a>
+
+        
+
+        <div class="flex items-center gap-4">
+            <button onclick="toggleTheme()">
+                <img src="./images/moon_icon.png" alt="" class="w-6 dark:hidden">
+                <img src="./images/sun_icon.png" alt="" class="w-6 hidden dark:block">
+            </button>
+
+           
+
+            <button class="block md:hidden ml-3" onclick="openMenu()">
+                <img src="./images/menu-black.png" alt="" class="w-6 dark:hidden">
+                <img src="./images/menu-white.png" alt="" class="w-6 hidden dark:block">
+            </button>
+
+        </div>
+
+
+       
+
+    </nav>
+  
+
+    <!-- ------------ my Projects------------  -->
+
+    <div id="work" class="w-full px-[12%] py-10 scroll-mt-20  justify-center gap-2">
+        <br>
+        <br>
+        <h4 class="text-center mb-2 text-lg font-Ovo">My Projects</h4>
+        <h2 class="text-center text-5xl font-Ovo">My latest work</h2>
+        <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"></p>
+
+        <div class="grid grid-cols-auto my-10 gap-5 dark:text-black">
+            <a href="https://github.com/NIRANJAN-PATIL-1811/Elder-Grace">
+                <div
+                class="aspect-square bg-[url('./images/old-age.avif')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Elder Grace</h2>
+                        <p class="text-sm text-gray-700">Python</p>
+                    </div>
+                    <div
+                        class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        <img src="./images/send-icon.png" alt="" class="w-5">
+                    </div>
+                </div>
+            </div>
+            </a>
+
+
+
+            <a href="https://github.com/NIRANJAN-PATIL-1811/Prescripto">
+                <div
+                class="aspect-square bg-[url('./images/perscripto.avif')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Perscripto</h2>
+                        <p class="text-sm text-gray-700">Full-Stack</p>
+                    </div>
+                    <div
+                        class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        <img src="./images/send-icon.png" alt="" class="w-5">
+                    </div>
+                </div>
+            </div>
+
+            </a>
+
+
+
+                <a href="https://github.com/NIRANJAN-PATIL-1811/Food-Delivery">
+                <div
+                class="aspect-square bg-[url('./images/food-delivery.webp')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Food Delivery</h2>
+                        <p class="text-sm text-gray-700">Full-Stack</p>
+                    </div>
+                    <div
+                        class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        <img src="./images/send-icon.png" alt="" class="w-5">
+                    </div>
+                </div>
+            </div>
+
+            </a>
+
+            <a href="https://github.com/NIRANJAN-PATIL-1811/Library">
+                <div
+                class="aspect-square bg-[url('./images/library.avif')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Library</h2>
+                        <p class="text-sm text-gray-700">Full Stack</p>
+                    </div>
+                    <div
+                        class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        <img src="./images/send-icon.png" alt="" class="w-5">
+                    </div>
+                </div>
+            </div>
+            </a>
+
+
+
+
+
+            <a href="https://github.com/NIRANJAN-PATIL-1811/Tic-Tac-Toe">
+                <div
+                class="aspect-square bg-[url('./images/Tic-tac-toe.avif')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Tic-Tac-Toe</h2>
+                        <p class="text-sm text-gray-700">Java</p>
+                    </div>
+                    <div
+                        class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        <img src="./images/send-icon.png" alt="" class="w-5">
+                    </div>
+                </div>
+            </div>
+            </a>
+
+
+            <a href="https://github.com/NIRANJAN-PATIL-1811/My-Portfolio">
+                <div
+                class="aspect-square bg-[url('./images/portfolio.avif')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">My-Portfolio</h2>
+                        <p class="text-sm text-gray-700">HTML,CSS,JS</p>
+                    </div>
+                    <div
+                        class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        <img src="./images/send-icon.png" alt="" class="w-5">
+                    </div>
+                </div>
+            </div>
+
+            </a>
+
+            <a href="https://github.com/NIRANJAN-PATIL-1811/Memory-Game/">
+                <div
+                class="aspect-square bg-[url('./images/memorygame.png')] bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group">
+
+                <div
+                    class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
+                    <div>
+                        <h2 class="font-semibold">Memory Game</h2>
+                        <p class="text-sm text-gray-700">HTML, CSS, JS</p>
+                    </div>
+                    <div
+                        class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        <img src="./images/send-icon.png" alt="" class="w-5">
+                    </div>
+                </div>
+            </div>
+            </a>
+       
+
+    </div>
+        
+    <a href="./index.html" class="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-1 hover:bg-lightHover duration-500
+    dark:text-white dark:border-white dark:hover:bg-darkHover">BACK
+            <img src="./images/right-arrow-bold.png" alt="" class="w-4 dark:hidden">
+            <img src="./images/right-arrow-bold-dark.png" alt="" class="w-4 hidden dark:block">
+        </a>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    
+
+        
+    
+
+
+    <!-- ----------- footer ---------  -->
+    <div class="mt-20">
+        <div class="text-center">
+            <a href="./index.html">
+                <img src="./images/logo.svg" alt="" class="w-36 mx-auto mb-2 dark:hidden">
+            <img src="./images/logo-dark.png" alt="" class="w-36 mx-auto mb-2 hidden dark:block">
+            </a>
+            
+
+
+            <div class="w-max flex items-center gap-2 mx-auto">
+                <img src="./images/mail_icon.png" alt="" class="w-6 dark:hidden">
+                <img src="./images/mail_icon_dark.png" alt="" class="w-6 hidden dark:block">
+
+                rosh.rp1811@gmail.com
+            </div>
+        </div>
+        <div class="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
+            <p>© 2026 Niranjan Patil. All rights reserved.</p>
+            <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
+                <li><a target="_blank" href="https://github.com/NIRANJAN-PATIL-1811">GitHub</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/niranjan-patil-55846425b/">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
